@@ -9,7 +9,7 @@ import java.io.File;
  */
 public class GUIUtil {
 
-    private static String imageFolder = "D:\\job_project\\hutubill\\img";
+    private static String imageFolder = "img";
 
     public static void setImageIcon(JButton b,String fileName,String tip){
         ImageIcon i = new ImageIcon(new File(imageFolder,fileName).getAbsolutePath());
